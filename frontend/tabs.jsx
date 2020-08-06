@@ -45,16 +45,19 @@ export default class Tabs extends React.Component {
             <div>
                 <h1>Projects</h1>
                 <div className='tabs'>
-                    <Headers
+                    
+                        <Headers
                         selectedPane={this.state.selectedPane}
                         onTabChosen={this.selectTab}
                         panes={this.props.panes}>
                     </Headers>
+                  
+                    
                     <div className='tab-content'>
                         <article>
-                            <a href={`https://${pane.live}`} target="_blank">Live</a>
-                            <p></p>
-                            <a href={`${pane.git}`} target="_blank">Git Hub</a>
+                            <a className='live' href={`https://${pane.live}`} target="_blank">Live Link</a>
+                            
+                            <a className='git' href={`${pane.git}`} target="_blank">Git Hub</a>
                         </article>
                     </div>
                 </div>

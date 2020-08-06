@@ -23,6 +23,7 @@
   justify-content: space-between;
   list-style-type: none;
   margin: 0;
+  
 }
 
 .tab-header > li{
@@ -57,10 +58,11 @@
   font-weight: bold;
 }
 
-/* .tabs{
-  width: 240px;
-  height: 200px;
-} */
+.tab-list{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
 
 .tab-content{
   font-weight: bold;
@@ -80,7 +82,9 @@
 }
 
 .tab-content article {
-  text-align: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 body{
@@ -91,4 +95,25 @@ body{
 .interactive{
   display: flex;
   justify-content: space-around;
+}
+
+.live{
+    text-decoration: none;
+    margin-bottom: 5vh;
+    color: black;
+}
+
+.live:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+
+.git{
+    text-decoration: none;
+    color: black;
+}
+
+.git:hover{
+    text-decoration: underline;
+    color: orange;
 }
