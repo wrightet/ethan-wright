@@ -213,61 +213,6 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
-// import React from 'react';
-// class Headers extends React.Component{
-//     render(){
-//         let selected = this.props.selectedpage
-//         let headers = this.props.pages.map((page, index) => {
-//             let title = page.title;
-//             let classname = index ===selected ? 'active' : '';
-//             return(
-//                 <li
-//                     key={index}
-//                     className={classname}
-//                     onClick={() => this.props.onSelectedTab(index)}
-//                 >
-//                     {title}{' '}
-//                 </li>
-//             );
-//         })
-//         return(
-//             <ul>
-//                 {headers}
-//             </ul>
-//         )
-//     }
-// }
-// class Tabs extends React.Component{
-//     constructor(props){
-//         super(props)
-//         this.state = {
-//             selectedpage: 0
-//         }
-//         this.selectPage = this.selectPage.bind(this)
-//     }
-//     selectPage(num){
-//         this.setState({selectedpage: num});
-//     }
-//     render(){
-//         console.log(this.props.pages)
-//         const page = this.props.pages[this.state.selectedpage]
-//         return(
-//             <div className='projects'>
-//                 <Headers
-//                     selectpage={this.state.selectedpage}
-//                     onSelectedTab={this.selectPage}
-//                     pages={this.props.pages}
-//                 ></Headers>
-//                 <div>
-//                     <article>
-//                         <a href={`${page.content}`}></a>
-//                     </article>
-//                 </div>
-//             </div>
-//         )
-//     }
-// }
-// export default Tabs;
 
 
 var Headers = /*#__PURE__*/function (_React$Component) {
