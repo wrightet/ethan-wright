@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./widgets.jsx");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./wright.jsx");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -28903,10 +28903,10 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./widgets.jsx":
-/*!*********************!*\
-  !*** ./widgets.jsx ***!
-  \*********************/
+/***/ "./wright.jsx":
+/*!********************!*\
+  !*** ./wright.jsx ***!
+  \********************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
