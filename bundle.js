@@ -179,6 +179,34 @@ var Clock = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
+/***/ "./frontend/skills.jsx":
+/*!*****************************!*\
+  !*** ./frontend/skills.jsx ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var Skills = function Skills() {
+  var skill = ['Ruby', 'Ruby on Rails', 'Javascript', 'Node', 'React', 'Redux', 'Express', 'Mongoose', 'Passport', 'Python', 'SQL', 'MySQL', 'PostgreSQL', 'MongoDB', 'Heroku', 'Git Hub', 'HTML', 'CSS'];
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "skills"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "skills-list"
+  }, skill.map(function (s) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, s);
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Skills);
+
+/***/ }),
+
 /***/ "./frontend/tabs.jsx":
 /*!***************************!*\
   !*** ./frontend/tabs.jsx ***!
@@ -322,12 +350,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _frontend_clock__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./frontend/clock */ "./frontend/clock.jsx");
 /* harmony import */ var _frontend_tabs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./frontend/tabs */ "./frontend/tabs.jsx");
+/* harmony import */ var _frontend_skills__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./frontend/skills */ "./frontend/skills.jsx");
+
 
 
 
 
 var Main = function Main() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_frontend_clock__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_frontend_tabs__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_frontend_clock__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_frontend_skills__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_frontend_tabs__WEBPACK_IMPORTED_MODULE_2__["default"], {
     panes: [{
       title: 'Bad Reads',
       live: 'bad-reads.herokuapp.com',

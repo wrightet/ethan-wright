@@ -1,9 +1,11 @@
 import React from 'react';
 import Clock from './frontend/clock';
 import Tabs from './frontend/tabs';
+import Skills from './frontend/skills';
 const Main = () => (
     <div>
         <Clock/>
+        <Skills/>
         <Tabs panes={[
             {title: 'Bad Reads', 
             live: 'bad-reads.herokuapp.com',
@@ -14,6 +16,7 @@ const Main = () => (
             git: 'https://github.com/wrightet/swell'
             },
             ]} />
+
     </div>
 )
 
