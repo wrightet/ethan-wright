@@ -282,7 +282,7 @@ var Tabs = /*#__PURE__*/function (_React$Component2) {
     value: function render() {
       var pane = this.props.panes[this.state.selectedPane];
       console.log(pane.content);
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Tabs"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "tabs"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Headers, {
         selectedPane: this.state.selectedPane,
@@ -291,8 +291,12 @@ var Tabs = /*#__PURE__*/function (_React$Component2) {
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "tab-content"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://".concat(pane.content)
-      }, pane.title)))));
+        href: "https://".concat(pane.live),
+        target: "_blank"
+      }, "Live"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "".concat(pane.git),
+        target: "_blank"
+      }, "Git Hub")))));
     }
   }]);
 
@@ -324,10 +328,12 @@ var Main = function Main() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_frontend_clock__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_frontend_tabs__WEBPACK_IMPORTED_MODULE_2__["default"], {
     panes: [{
       title: 'Bad Reads',
-      content: 'bad-reads.herokuapp.com'
+      live: 'bad-reads.herokuapp.com',
+      git: 'https://github.com/wrightet/full_stack_bad_reads'
     }, {
       title: 'Swell',
-      content: 'surf-swell.herokuapp.com'
+      live: 'surf-swell.herokuapp.com',
+      git: 'https://github.com/wrightet/swell'
     }]
   }));
 };

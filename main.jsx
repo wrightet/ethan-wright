@@ -6,10 +6,12 @@ const Main = () => (
         <Clock/>
         <Tabs panes={[
             {title: 'Bad Reads', 
-            content: 'bad-reads.herokuapp.com'
+            live: 'bad-reads.herokuapp.com',
+            git: 'https://github.com/wrightet/full_stack_bad_reads'
             },
             {title: 'Swell', 
-            content: 'surf-swell.herokuapp.com'
+            live: 'surf-swell.herokuapp.com',
+            git: 'https://github.com/wrightet/swell'
             },
             ]} />
     </div>

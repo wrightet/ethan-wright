@@ -43,7 +43,7 @@ export default class Tabs extends React.Component {
         console.log(pane.content)
         return (
             <div>
-                <h1>Tabs</h1>
+                <h1>Projects</h1>
                 <div className='tabs'>
                     <Headers
                         selectedPane={this.state.selectedPane}
@@ -52,7 +52,9 @@ export default class Tabs extends React.Component {
                     </Headers>
                     <div className='tab-content'>
                         <article>
-                            <a href={`https://${pane.content}`}>{pane.title}</a>
+                            <a href={`https://${pane.live}`} target="_blank">Live</a>
+                            <p></p>
+                            <a href={`${pane.git}`} target="_blank">Git Hub</a>
                         </article>
                     </div>
                 </div>
