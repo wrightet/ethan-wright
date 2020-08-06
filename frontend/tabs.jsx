@@ -99,7 +99,7 @@ export default class Tabs extends React.Component {
 
     render() {
         const pane = this.props.panes[this.state.selectedPane];
-
+        console.log(pane.content)
         return (
             <div>
                 <h1>Tabs</h1>
@@ -111,7 +111,7 @@ export default class Tabs extends React.Component {
                     </Headers>
                     <div className='tab-content'>
                         <article>
-                            {pane.content}
+                            <a href={pane.content}>{pane.title}</a>
                         </article>
                     </div>
                 </div>
