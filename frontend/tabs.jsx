@@ -111,7 +111,7 @@ export default class Tabs extends React.Component {
                     </Headers>
                     <div className='tab-content'>
                         <article>
-                            <a href={pane.content}>{pane.title}</a>
+                            <a href={`https://${pane.content}`}>{pane.title}</a>
                         </article>
                     </div>
                 </div>
