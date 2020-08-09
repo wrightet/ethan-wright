@@ -135,5 +135,12 @@ body{
     border-right: none;
 }
 
+.shown{
+
+}
+
+.hide{
+  display: none;
+}
 
 

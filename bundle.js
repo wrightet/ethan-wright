@@ -280,12 +280,15 @@ __webpack_require__.r(__webpack_exports__);
 
 var Skills = function Skills() {
   var skill = ['Ruby', 'Ruby on Rails', 'Javascript', 'Node', 'React', 'Redux', 'Express', 'Mongoose', 'Passport', 'Python', 'SQL', 'MySQL', 'PostgreSQL', 'MongoDB', 'Heroku', 'Git Hub', 'HTML', 'CSS'];
+  var count = 0;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "skills"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "skills-list"
   }, skill.map(function (s) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, s);
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      key: count++
+    }, s);
   })));
 };
 

@@ -19,16 +19,20 @@ const Skills = () => {
         'HTML',
         'CSS'
     ]
+    let count = 0;
+    
     return(
         <div className='skills'>
             <ul className='skills-list'>
                 {skill.map(s => (
-                    <li>{s}</li>
+                    <li key={count++}>{s}</li>
+                    
                 ))}
             </ul>
         </div>
     
     )
+    
 }
 
 export default Skills;
