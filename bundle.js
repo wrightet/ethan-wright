@@ -127,12 +127,27 @@ var About = /*#__PURE__*/function (_React$Component) {
   var _super = _createSuper(About);
 
   function About(props) {
+    var _this;
+
     _classCallCheck(this, About);
 
-    return _super.call(this, props);
+    _this = _super.call(this, props);
+    _this.state = {
+      shown: false
+    };
+    return _this;
   }
 
   _createClass(About, [{
+    key: "display",
+    value: function display() {
+      this.state.shown === false ? this.setState({
+        shown: true
+      }) : this.setState({
+        shown: true
+      });
+    }
+  }, {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {

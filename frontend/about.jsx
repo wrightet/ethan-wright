@@ -3,9 +3,15 @@ import React from 'react';
 class About extends React.Component{
     constructor(props) {
         super(props);
+        this.state = {
+            shown: false
+        }
         
     }
 
+    display(){
+        this.state.shown === false ? this.setState({shown:true}) : this.setState({shown:true})
+    }
     render(){
         return(
             <div className='about'>
