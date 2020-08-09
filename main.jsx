@@ -2,6 +2,7 @@ import React from 'react';
 import Clock from './frontend/clock';
 import Tabs from './frontend/tabs';
 import Skills from './frontend/skills';
+import Weather from './frontend/weather';
 const Main = () => (
     <div>
         <Clock/>
@@ -16,6 +17,7 @@ const Main = () => (
             git: 'https://github.com/wrightet/swell'
             },
             ]} />
+        <Weather/>
 
     </div>
 )

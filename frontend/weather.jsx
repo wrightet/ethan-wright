@@ -6,4 +6,18 @@ class Weather extends React.Component{
         
     }
     
+    componentDidMount(){
+        navigator.geolocation.getCurrentPosition 
+    }
+
+    render(){
+        return(
+           <div>
+            hey
+        </div> 
+        )
+        
+    }
 }
+
+export default Weather;
