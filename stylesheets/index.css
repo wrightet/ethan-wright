@@ -135,12 +135,13 @@ body{
     border-right: none;
 }
 
-.shown{
-
+.about{
+  width: 100vw;
 }
 
 .hide{
   display: none;
+  width: 100vw;
 }
 
 
