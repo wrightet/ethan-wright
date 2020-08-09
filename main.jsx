@@ -3,10 +3,12 @@ import Clock from './frontend/clock';
 import Tabs from './frontend/tabs';
 import Skills from './frontend/skills';
 import Weather from './frontend/weather';
+import About from './frontend/about';
 const Main = () => (
     <div>
         <Clock/>
         <Skills/>
+        <About/>
         <Tabs panes={[
             {title: 'Bad Reads', 
             live: 'bad-reads.herokuapp.com',
