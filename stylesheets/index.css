@@ -144,4 +144,31 @@ body{
   width: 100vw;
 }
 
+.show{
+  padding-left: 5vw;
+
+}
+
+.show > p {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1vh;
+}
+
+.more-less{
+    background: none!important;
+  border: none;
+  padding-left: 1%;
+  color: #00635D;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 5vw;
+}
+
+.more-less:hover{
+  text-decoration: underline;
+}
+
 
