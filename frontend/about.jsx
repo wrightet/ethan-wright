@@ -28,7 +28,7 @@ class About extends React.Component{
                     <p>Though I have found my passion I worked in a variety of backgrounds such as parks and recreation, and aquatics. It was actually while I worked as a Recreational Technician that I began to think about coding. I was given many odd jobs such as converting VHS to mp4 for training lifeguards, and managing our staff website. I used excel to create budgets to calculate areas of improvement. The more I worked with computers the more I wanted to know and learn. And I have never stopped. </p>
                 </div>
                 
-                <button  className='more-less' onClick={() => this.display()}>{this.state.shown === false ? 'more' : 'less'}</button>
+                <button  className='more-less' onClick={() => this.display()}>{this.state.shown === false ? 'Less' : 'More'}</button>
             </div>
         )
     }

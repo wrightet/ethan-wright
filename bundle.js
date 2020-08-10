@@ -162,7 +162,7 @@ var About = /*#__PURE__*/function (_React$Component) {
         onClick: function onClick() {
           return _this2.display();
         }
-      }, this.state.shown === false ? 'more' : 'less'));
+      }, this.state.shown === false ? 'Less' : 'More'));
     }
   }]);
 
