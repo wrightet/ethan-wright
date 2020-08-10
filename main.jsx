@@ -7,7 +7,9 @@ import About from './frontend/about';
 const Main = () => (
     <div>
         <Clock/>
+        <img className='profile-photo' src="assets/ethan_wright.JPG" alt="" />
         <Skills/>
+        
         <About/>
         <Tabs panes={[
             {title: 'Bad Reads', 

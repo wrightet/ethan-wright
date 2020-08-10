@@ -172,4 +172,10 @@ body{
   color: blue;
 }
 
+.profile-photo{
+  width: 10vw;
+  border-radius: 100%;
+
+}
+
 
