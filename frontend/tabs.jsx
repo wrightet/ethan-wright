@@ -46,7 +46,7 @@ export default class Tabs extends React.Component {
                 <h1>Projects</h1>
                 <div className='tabs'>
                     
-                        <Headers
+                    <Headers
                         selectedPane={this.state.selectedPane}
                         onTabChosen={this.selectTab}
                         panes={this.props.panes}>

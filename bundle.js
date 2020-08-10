@@ -515,7 +515,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Main = function Main() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_frontend_clock__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_frontend_clock__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Ethan Wright"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "photo"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "profile-photo",
     src: "assets/ethan_wright.JPG",
     alt: ""
@@ -529,7 +531,7 @@ var Main = function Main() {
       live: 'surf-swell.herokuapp.com',
       git: 'https://github.com/wrightet/swell'
     }]
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_frontend_weather__WEBPACK_IMPORTED_MODULE_4__["default"], null));
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Main);

@@ -7,7 +7,9 @@ import About from './frontend/about';
 const Main = () => (
     <div>
         <Clock/>
-        <div>
+        <h1>Ethan Wright</h1>
+        <div className='photo'>
+            
             <img className='profile-photo' src="assets/ethan_wright.JPG" alt="" />
         </div>
        
@@ -24,7 +26,7 @@ const Main = () => (
             git: 'https://github.com/wrightet/swell'
             },
             ]} />
-        <Weather/>
+        {/* <Weather/> */}
 
     </div>
 )

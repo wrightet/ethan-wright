@@ -105,7 +105,8 @@ body{
 
 .live:hover{
     text-decoration: underline;
-    color: yellow;
+    animation-name: change;
+    animation-duration: 4s;
 }
 
 .git{
@@ -113,9 +114,19 @@ body{
     color: black;
 }
 
+@keyframes change {
+  0%{color:yellow;}
+  25%{color:green;}
+  50%{color:blue;}
+  75%{color:purple;}
+  100%{color:red;}
+}
+
 .git:hover{
     text-decoration: underline;
-    color: orange;
+    /* color: orange; */
+    animation-name: change;
+    animation-duration: 4s;
 }
 
 .skills-list > li{
@@ -181,5 +192,12 @@ body{
   justify-content: center;
 
 }
+ .photo{
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   /* padding: 3vw; */
+   /* flex-direction: column; */
+ }
 
 
