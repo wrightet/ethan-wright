@@ -7,7 +7,10 @@ import About from './frontend/about';
 const Main = () => (
     <div>
         <Clock/>
-        <img className='profile-photo' src="assets/ethan_wright.JPG" alt="" />
+        <div>
+            <img className='profile-photo' src="assets/ethan_wright.JPG" alt="" />
+        </div>
+       
         <Skills/>
         
         <About/>
