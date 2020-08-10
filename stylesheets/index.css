@@ -201,4 +201,7 @@ body{
    /* flex-direction: column; */
  }
 
+ p{
+   text-indent: 20px;
+ }
 

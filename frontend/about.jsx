@@ -19,7 +19,7 @@ class About extends React.Component{
             <div className='about'>
                 <h1>About Me:</h1>
                 <div className={this.state.shown === false ? 'show' : 'hide'}>
-                    <p> I am a software engineer with skills in Javascript, Ruby, Ruby on Rails, React, Redux, PostgreSQL, MongoDB, HTML, and CSS.</p>
+                    <p>I am a software engineer with skills in Javascript, Ruby, Ruby on Rails, React, Redux, PostgreSQL, MongoDB, HTML, and CSS.</p>
                     <p></p>
                     <p>Since I was very young I have loved to make things. This started with little knick knacks I made with my mother and grandma led into metal/ wood working, and finally software development. I love all of the things it allows me to do. Whenever I am programming It makes me feel as though I am a wizard just like in the stories I read as a child.</p>
                     <p></p>
