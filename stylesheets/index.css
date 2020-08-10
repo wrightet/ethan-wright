@@ -115,11 +115,12 @@ body{
 }
 
 @keyframes change {
-  0%{color:yellow;}
+  0%{color:black;}
   25%{color:green;}
   50%{color:blue;}
   75%{color:purple;}
   100%{color:red;}
+  
 }
 
 .git:hover{
