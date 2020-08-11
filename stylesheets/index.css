@@ -168,7 +168,7 @@ body{
   display: flex;
   flex-direction: column;
   padding-bottom: 1vh;
-  width: 90%;
+  width: 80%;
 }
 
 .more-less{
