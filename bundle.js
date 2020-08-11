@@ -533,7 +533,17 @@ var Main = function Main() {
       live: 'surf-swell.herokuapp.com',
       git: 'https://github.com/wrightet/swell'
     }]
-  })));
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "contact"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "email"
+  }, "Email: wrightet707@gmail.com"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "linkedin"
+  }, "LinkedIn:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "linkedin-link",
+    target: "_blank",
+    href: "https://www.linkedin.com/in/ethan-wright-91a75270/"
+  }, "Click Here"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Main);

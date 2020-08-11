@@ -30,14 +30,14 @@ const Main = () => (
                 },
             ]} />
             {/* <Weather/> */}
-            {/* <div className='contact'>
-                <h1>Contact</h1>
-                <h2>Email: wrightet707@gmail.com</h2>
-                <a href="https://www.linkedin.com/in/ethan-wright-91a75270/">LinkedIn</a>
-            </div> */}
+         
         </div>
    
-
+        <div className='contact'>
+                <h1>Contact</h1>
+                <h2 className='email'>Email: wrightet707@gmail.com</h2>
+            <h2 className='linkedin'>LinkedIn:<a className='linkedin-link' target='_blank' href="https://www.linkedin.com/in/ethan-wright-91a75270/">Click Here</a></h2>
+            </div>
     </div>
 )
 
