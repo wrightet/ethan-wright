@@ -16,17 +16,27 @@ const Main = () => (
         <Skills/>
         
         <About/>
-        <Tabs panes={[
-            {title: 'Bad Reads', 
-            live: 'bad-reads.herokuapp.com',
-            git: 'https://github.com/wrightet/full_stack_bad_reads'
-            },
-            {title: 'Swell', 
-            live: 'surf-swell.herokuapp.com',
-            git: 'https://github.com/wrightet/swell'
-            },
+        <div className='projects-contact'>
+            <Tabs panes={[
+                {
+                    title: 'Bad Reads',
+                    live: 'bad-reads.herokuapp.com',
+                    git: 'https://github.com/wrightet/full_stack_bad_reads'
+                },
+                {
+                    title: 'Swell',
+                    live: 'surf-swell.herokuapp.com',
+                    git: 'https://github.com/wrightet/swell'
+                },
             ]} />
-        {/* <Weather/> */}
+            {/* <Weather/> */}
+            {/* <div className='contact'>
+                <h1>Contact</h1>
+                <h2>Email: wrightet707@gmail.com</h2>
+                <a href="https://www.linkedin.com/in/ethan-wright-91a75270/">LinkedIn</a>
+            </div> */}
+        </div>
+   
 
     </div>
 )

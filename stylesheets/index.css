@@ -15,6 +15,9 @@
     margin: auto;
 }
 
+.tabs{
+  width:100%
+}
 .tab-header{
   width: 200px;
   height: 30px;
@@ -165,6 +168,7 @@ body{
   display: flex;
   flex-direction: column;
   padding-bottom: 1vh;
+  width: 90%;
 }
 
 .more-less{
@@ -205,3 +209,11 @@ body{
    text-indent: 20px;
  }
 
+ .projects-contact{
+   display: flex;
+   flex-direction: row;
+ }
+
+ .contact{
+   width:50%;
+ }
