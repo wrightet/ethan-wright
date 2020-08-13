@@ -251,11 +251,12 @@ var Clock = /*#__PURE__*/function (_React$Component) {
       var seconds = this.state.time.getSeconds();
       hours = hours > 12 ? "0".concat(hours) : hours;
       minutes = minutes < 10 ? "0".concat(minutes) : minutes;
+      seconds = seconds < 10 ? "0".concat(seconds) : seconds;
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "clock"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "clock-content"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, this.state.time.toDateString()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, hours > 12 ? "0".concat(hours - 12) : hours, " : ", minutes, " : ", seconds, " ", hours > 12 ? 'PM' : 'AM')));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "When can I start?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Available to start: ", this.state.time.toDateString(), " at ", hours > 12 ? "0".concat(hours - 12) : hours, " : ", minutes, " : ", seconds, " ", hours > 12 ? 'PM' : 'AM')));
     }
   }]);
 
