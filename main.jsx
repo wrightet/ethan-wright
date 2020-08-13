@@ -6,12 +6,16 @@ import Weather from './frontend/weather';
 import About from './frontend/about';
 const Main = () => (
     <div>
-        <Clock/>
-        <h1>Ethan Wright</h1>
-        <div className='photo'>
-            
-            <img className='profile-photo' src="assets/ethan_wright.JPG" alt="" />
+        <div>
+            <h1>Ethan Wright, Software Engineer</h1>
+            <div className='photo'>
+
+                <img className='profile-photo' src="assets/ethan_wright.JPG" alt="" />
+            </div>
         </div>
+        <Clock/>
+        
+        
        
         <Skills/>
         
