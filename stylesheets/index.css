@@ -1,4 +1,8 @@
-
+.name{
+  display: flex;
+  margin: 5vh auto 5vh auto;
+  justify-content: center;
+}
 
 .clock{
     display: flex;

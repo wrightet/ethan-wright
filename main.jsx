@@ -7,17 +7,18 @@ import About from './frontend/about';
 const Main = () => (
     <div>
         <div>
-            <h1>Ethan Wright, Software Engineer</h1>
+            <h1 className='name'>Ethan Wright, Software Engineer</h1>
             <div className='photo'>
 
                 <img className='profile-photo' src="assets/ethan_wright.JPG" alt="" />
             </div>
+            <Skills />
         </div>
         <Clock/>
         
         
        
-        <Skills/>
+       
         
         <About/>
         <div className='projects-contact'>
