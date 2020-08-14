@@ -256,7 +256,9 @@ var Clock = /*#__PURE__*/function (_React$Component) {
         className: "clock"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "clock-content"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "When can I start?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Available to start: ", this.state.time.toDateString(), " at ", hours > 12 ? "0".concat(hours - 12) : hours, " : ", minutes, " : ", seconds, " ", hours > 12 ? 'PM' : 'AM')));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+        className: "start"
+      }, "When can I start?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Available to start: ", this.state.time.toDateString(), " at ", hours > 12 ? "0".concat(hours - 12) : hours, " : ", minutes, " : ", seconds, " ", hours > 12 ? 'PM' : 'AM')));
     }
   }]);
 
@@ -518,7 +520,9 @@ __webpack_require__.r(__webpack_exports__);
 var Main = function Main() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "name"
-  }, "Ethan Wright, Software Engineer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "I'm Ethan Wright"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    className: "name"
+  }, " Software Engineer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "photo"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "profile-photo",

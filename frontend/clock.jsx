@@ -32,7 +32,7 @@ class Clock extends React.Component{
         return(
             <div className='clock'>
                 <div className='clock-content'>
-                    <h1>When can I start?</h1>
+                    <h1 className='start'>When can I start?</h1>
                     <h1>Available to start: {this.state.time.toDateString()} at {hours > 12 ? `0${hours - 12}` : hours} : {minutes} : {seconds} {hours > 12 ? 'PM' : 'AM'}</h1>
                         
                 </div>
