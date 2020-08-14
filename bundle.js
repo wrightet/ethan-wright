@@ -133,7 +133,7 @@ var About = /*#__PURE__*/function (_React$Component) {
 
     _this = _super.call(this, props);
     _this.state = {
-      shown: false
+      shown: true
     };
     return _this;
   }
