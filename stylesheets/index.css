@@ -92,7 +92,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: lightblue;
+  background-color: white;
   background-image: url(https://hd.unsplash.com/photo-1445112098124-3e76dd67983c);
   background-size: cover;
 }
