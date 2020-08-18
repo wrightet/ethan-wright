@@ -1,3 +1,7 @@
+#root{
+  background-color: lightgrey;
+  /* color:white; */
+}
 .name{
   display: flex;
   margin: 5vh auto 5vh auto;
@@ -49,7 +53,7 @@
   padding-top: 4px;
   text-align: center;
   cursor: pointer;
-  background-color: lightpink;
+  background-color: gray;
   
 }
 
@@ -102,6 +106,7 @@
 body{
   display: flex;
   justify-content: space-around;
+  
 }
 
 .interactive{
