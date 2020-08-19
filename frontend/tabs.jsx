@@ -43,7 +43,7 @@ export default class Tabs extends React.Component {
         
         return (
             <div className='tabs'>
-                <h1>Projects</h1>
+                <h1 className='project-title'>Projects</h1>
                 <div>
                     
                     <Headers

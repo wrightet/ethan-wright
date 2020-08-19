@@ -21,7 +21,7 @@
 
 .clock-content{
     display: block;
-    margin-left: 5vw;;
+    margin-left: 1vw;;
 }
 
 .start{
@@ -168,6 +168,7 @@ body{
 
 .about{
   width: 100vw;
+  margin-left: 1vw;
 }
 
 .hide{
@@ -234,6 +235,7 @@ body{
 
  .contact{
    width:50%;
+   margin-left: 1.5vw;
  }
 
  .linkedin{
@@ -257,4 +259,8 @@ body{
 
  .email{
    margin-left: 1.5vw;
+ }
+
+ .project-title{
+   margin-left: 2.5vw;
  }
