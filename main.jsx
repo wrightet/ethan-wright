@@ -34,6 +34,11 @@ const Main = () => (
                     live: 'surf-swell.herokuapp.com',
                     git: 'https://github.com/wrightet/swell'
                 },
+                {
+                    title: 'The Life of Tim',
+                    live:'https://wrightet.github.io/life_of_tim/',
+                    git:'https://github.com/wrightet/life_of_tim',
+                }
             ]} />
             {/* <Weather/> */}
          
