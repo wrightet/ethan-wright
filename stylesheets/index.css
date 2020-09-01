@@ -32,7 +32,7 @@
   width:100%
 }
 .tab-header{
-  width: 200px;
+  width: 30vw;
   height: 30px;
   /* margin: 0 20px; */
   display: flex;
@@ -43,7 +43,7 @@
 }
 
 .tab-header > li{
-  width: 10vw;
+  width: 30vw;
   border-top: 2px solid black;
   border-left: 1px solid black;
   border-right: 1px solid black;
@@ -54,6 +54,9 @@
   text-align: center;
   cursor: pointer;
   background-color: gray;
+  
+  display:flex;
+  justify-content: center;
   
 }
 

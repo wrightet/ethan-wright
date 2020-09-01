@@ -402,6 +402,7 @@ var Tabs = /*#__PURE__*/function (_React$Component2) {
     key: "render",
     value: function render() {
       var pane = this.props.panes[this.state.selectedPane];
+      console.log(this.props.panes);
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "tabs"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
@@ -541,6 +542,10 @@ var Main = function Main() {
       title: 'Swell',
       live: 'surf-swell.herokuapp.com',
       git: 'https://github.com/wrightet/swell'
+    }, {
+      title: 'The Life of Tim',
+      live: 'wrightet.github.io/life_of_tim/',
+      git: 'https://github.com/wrightet/life_of_tim'
     }]
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "contact"
