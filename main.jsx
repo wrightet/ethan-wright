@@ -38,7 +38,7 @@ const Main = () => (
                     title: 'The Life of Tim',
                     live:'https://wrightet.github.io/life_of_tim/',
                     git:'https://github.com/wrightet/life_of_tim',
-                }
+                },
             ]} />
             {/* <Weather/> */}
          
