@@ -39,6 +39,11 @@ const Main = () => (
                     live:'wrightet.github.io/life_of_tim/',
                     git:'https://github.com/wrightet/life_of_tim',
                 },
+                {
+                    title: 'Ethan Bot 3000',
+                    live:'https://ethan-bot-3000.herokuapp.com/',
+                    git:'https://github.com/wrightet/Ethan_bot_3000',
+                },
             ]} />
             {/* <Weather/> */}
          
