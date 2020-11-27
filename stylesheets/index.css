@@ -44,7 +44,7 @@
 }
 
 .tab-header > li{
-  width: 30vw;
+  min-width: 20vw;
   border-top: 2px solid black;
   border-left: 1px solid black;
   border-right: 1px solid black;
