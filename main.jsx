@@ -45,7 +45,7 @@ const Main = () => (
                     git:'https://github.com/wrightet/Ethan_bot_3000',
                 },
             ]} />
-            {/* <Weather/> */}
+            
          
         </div>
    
