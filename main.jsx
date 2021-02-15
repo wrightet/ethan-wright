@@ -41,7 +41,7 @@ const Main = () => (
                 },
                 {
                     title: 'Ethan Bot 3000',
-                    live:'ethan-bot-3000.herokuapp.com/',
+                    live:'ethan-bot-3000.herokuapp.com',
                     git:'https://github.com/wrightet/Ethan_bot_3000',
                 },
             ]} />
