@@ -55,7 +55,7 @@ export default class Tabs extends React.Component {
                     
                     <div className='tab-content'>
                         <article>
-                            <a className='live' href={`${pane.live}`} target="_blank">Live Link</a>
+                            <a className='live' href={`https://${pane.live}`} target="_blank">Live Link</a>
                             
                             <a className='git' href={`${pane.git}`} target="_blank">Git Hub</a>
                         </article>

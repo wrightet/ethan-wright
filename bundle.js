@@ -546,7 +546,7 @@ var Main = function Main() {
       git: 'https://github.com/wrightet/life_of_tim'
     }, {
       title: 'Ethan Bot 3000',
-      live: 'https://ethan-bot-3000.herokuapp.com/',
+      live: 'ethan-bot-3000.herokuapp.com',
       git: 'https://github.com/wrightet/Ethan_bot_3000'
     }]
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
