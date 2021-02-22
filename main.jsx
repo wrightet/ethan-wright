@@ -62,7 +62,10 @@ const Main = () => (
 						</div>
 					</section>
 				</div>
+			<header className="major container medium">
+				<About />
 
+			</header>
 				<header className="major container medium">
 				<Clock />
 			
