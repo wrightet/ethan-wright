@@ -21,10 +21,9 @@ const Main = () => (
 
 				<header className="major container medium">
 					<h2>I'll let my work 
-                	
-                speak for itself.
-					<br />
-					I have the skills.</h2>
+					
+                speak for itself.</h2>
+				
 			
 				</header>
 
@@ -62,14 +61,20 @@ const Main = () => (
 						</div>
 					</section>
 				</div>
+
+			<header className="major container medium">
+				<h2>I have the skills</h2>
+				<Skills />
+
+			</header>
 			<header className="major container medium">
 				<About />
 
 			</header>
-				<header className="major container medium">
-				<Clock />
-			
-				</header>
+			<header className="major container medium">
+			<Clock />
+		
+			</header>
 		
 
 			</div>
