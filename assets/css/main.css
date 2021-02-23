@@ -3302,9 +3302,11 @@ input, select, textarea {
 	}
 
 	.profile-pic{
-		width: 30vw;
-		height: 50vh;
+
+		max-width: 20vw;
+		max-height: 50vh;
 		border-radius: 100%;
+		margin-bottom: 10vh;
 	}
 .clock{
     display: flex;
